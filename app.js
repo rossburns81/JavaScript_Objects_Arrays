@@ -7,13 +7,10 @@ const numbers = [2, 22, 12, 17, 18, 39, 129];
 
 function arraySum(arr) {
     let sum = 0;
-    
-
-    
+     
     arr.forEach((num) => {
         sum += num;
     });
-
 
     return sum;
 }
@@ -40,4 +37,3 @@ function info () {
 book.info = info;
 
 book.info();
-
